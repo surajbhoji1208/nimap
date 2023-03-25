@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'nimap';
+ 
+  title = 'nipamTechnology';
+  constructor() { }
+
+  modalshow:boolean=false;
+  show(){
+      this.modalshow=!this.modalshow;
+  }
+
+  profileShow:boolean=false;
+
+  pshow()
+  {
+    this.profileShow=!this.profileShow;
+
+  }
 }
